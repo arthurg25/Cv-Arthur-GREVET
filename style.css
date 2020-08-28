@@ -1,0 +1,169 @@
+body
+{
+	font-family: arial;
+	line-height: 1.8;
+	display: flex;
+	margin: 0;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	color: #404040;
+}
+
+img
+{
+	width: 120px;	
+	clip-path: circle(40%);
+}
+
+.img
+{
+	flex-basis: 25%;
+	background-color: #FECA07;
+	text-align: center;
+	align-self: stretch;
+}
+
+.header
+{
+	flex-basis: 75%;
+	order: 0;
+	line-height: 1em;
+	justify-content: space-between;
+	font-size: 2em;
+}
+
+.header h1, .header h2
+{
+	margin-left: 10px;
+}
+
+.header strong
+{
+	color: #FECA07;
+}
+
+.gauche
+{
+	background-color: #FECA07;
+	flex-basis: 25%;
+	order: 1;
+	text-align: center;
+	align-self: stretch;
+}
+
+.gauche p
+{
+	color: #FECA07;
+	background: #404040;
+}
+
+.gauche ul li 
+{
+	text-align: left;
+	list-style-type: none;
+}
+
+.container
+{
+	order: 2;
+	flex-basis: 75%;
+}
+
+.container h2
+{
+	color: black;
+	margin-left: 10%;
+	border-bottom: solid #FECA07;
+	margin-right: 10%
+}
+
+.liste
+{
+	display: flex;
+}
+
+
+.date
+{
+	flex-basis: 40%;
+	font-style: italic;
+	font-weight: bold;
+	list-style-image: url(image/puce.png); 
+}
+
+.text
+{
+	flex-basis: 60%;
+	list-style-type: none;
+	color: #FECA07;
+}
+
+.para
+{
+	font-style: italic;
+	font-weight: bold;
+	list-style-image: url(image/puce.png);
+}
+@media screen and (max-width: 1200px) and (min-width: 470px)
+{
+	.img
+	{
+		order: 1;
+		flex-basis: 51%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header
+	{
+		order: 0;
+		flex-basis: 51%;
+		justify-content: center;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1em;
+	}
+	.gauche
+	{
+		flex-basis: 51%;
+		margin-left: auto;
+		margin-right: auto;
+		order: 2;
+	}
+	.container
+	{
+		flex-basis: 100%;
+		order: 3;
+	}
+}
+
+@media screen and (max-width: 470px)
+{
+	.img
+	{
+		flex-basis: 100%;
+		order: 1;
+	}
+	.header
+	{
+		flex-basis: 100%;
+		font-size: 1em;
+	}
+	.gauche
+	{
+		flex-basis: 100%;
+	}
+	.container
+	{
+		flex-basis: 100%;
+	}
+	.container h2
+	{
+		margin-left: 0;	
+	}
+	.liste
+	{
+		display: block;
+	}
+}
+
