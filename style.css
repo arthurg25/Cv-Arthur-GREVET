@@ -83,6 +83,13 @@ img
 	display: flex;
 }
 
+.date1
+{
+	flex-basis: 40%;
+	font-style: italic;
+	font-weight: bold;
+	list-style-image: url(image/puce2.png); 
+}
 
 .date
 {
@@ -99,12 +106,6 @@ img
 	color: #FECA07;
 }
 
-.para
-{
-	font-style: italic;
-	font-weight: bold;
-	list-style-image: url(image/puce.png);
-}
 @media screen and (max-width: 1200px) and (min-width: 470px)
 {
 	.img
