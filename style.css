@@ -153,13 +153,7 @@ img
 	flex-basis: 100%;
 }
 
-.liste2
-{
-	flex-basis: 50%;
-	list-style-type: none;
-}
-
-.liste3
+.liste1 ul
 {
 	flex-basis: 50%;
 	list-style-type: none;
