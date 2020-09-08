@@ -63,6 +63,7 @@ img
 {
 	color: #FECA07;
 	background: #404040;
+	text-align: center;
 }
 
 .gauche ul li 
@@ -77,7 +78,7 @@ img
 .gauche p
 {
 	text-align: justify;
-	margin: 10%;
+	margin:0 40px 0 40px;
 }
 
 .iconesg
@@ -97,7 +98,7 @@ img
   	background: #404040;
   	color: #FECA07;
   	border-radius: 1.2em;
-  	margin-bottom: 5%;
+  	margin-bottom: 10px;
 }
 
 .container
@@ -167,18 +168,19 @@ img
 	.img
 	{
 		order: 1;
-		flex-basis: 51%;
+		flex-basis: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.header
 	{
 		order: 0;
-		flex-basis: 51%;
+		flex-basis: 100%;
 		justify-content: center;
 		margin-right: auto;
 		margin-left: auto;
 		font-size: 1em;
+		text-align: center;
 	}
 	.header h1, .header h2
 	{
@@ -186,18 +188,10 @@ img
 	}
 	.gauche
 	{
-		flex-basis: 51%;
+		flex-basis: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		order: 2;
-	}
-	.gauche p
-	{
-		margin-bottom: 0;
-	}
-	.loisirs
-	{
-		margin-top: 0;
 	}
 	.container
 	{
@@ -223,21 +217,9 @@ img
 		flex-basis: 100%;
 		font-size: 1em;
 	}
-	.header h1, .header h2
-	{
-		margin-left: 0;
-	}
 	.gauche
 	{
 		flex-basis: 100%;
-	}
-	.gauche p
-	{
-		margin-bottom: 0;
-	}
-	.loisirs
-	{
-		margin-top: 0;
 	}
 	.container
 	{
