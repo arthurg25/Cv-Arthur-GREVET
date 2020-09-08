@@ -53,9 +53,10 @@ img
 	background-color: #FECA07;
 	flex-basis: 25%;
 	order: 1;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	align-self: stretch;
-	font-weight: bold;
 }
 
 .gauche h2
@@ -75,16 +76,16 @@ img
 
 .gauche p
 {
-	text-align: left;
+	text-align: justify;
 	margin: 10%;
-	height: 62%;
 }
 
 .iconesg
 {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
-	margin-bottom: 5%;
+
 }
 
 .iconesg i
@@ -96,6 +97,7 @@ img
   	background: #404040;
   	color: #FECA07;
   	border-radius: 1.2em;
+  	margin-bottom: 5%;
 }
 
 .container
@@ -106,15 +108,16 @@ img
 
 .container h2
 {
-	color: black;
-	margin-left: 10%;
 	border-bottom: solid #FECA07;
+	color: black;
+	margin-left: 60px;
 	margin-right: 10%;
 }
 
 .container li
 {
 	margin-right: 10%;
+	margin-left: 40px;
 }
 
 .container i 
@@ -191,7 +194,6 @@ img
 	.gauche p
 	{
 		margin-bottom: 0;
-		height: auto;
 	}
 	.loisirs
 	{
@@ -232,7 +234,6 @@ img
 	.gauche p
 	{
 		margin-bottom: 0;
-		height: auto;
 	}
 	.loisirs
 	{
